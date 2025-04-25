@@ -52,3 +52,40 @@ body {
   a:hover {
     text-decoration: underline;
   }
+  body {
+    background: linear-gradient(135deg, #f9f9f9 0%, #e6f2ff 100%);
+  }
+  
+  .container {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    padding: 3em;
+    margin-top: 2em;
+  }
+  
+  header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    color: #004080;
+  }
+  
+  h2 {
+    border-left: 4px solid #007acc;
+    padding-left: 10px;
+    font-weight: 600;
+  }
+  
+  #contacto p::before {
+    content: "👉 ";
+    color: #007acc;
+  }
+  
+  a {
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    transform: scale(1.05);
+    color: #004080;
+  }
